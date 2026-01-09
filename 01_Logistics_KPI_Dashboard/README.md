@@ -36,3 +36,14 @@ logistics operations and supports faster operational decision-making.
 - Power BI
 - SQL
 - Power Query
+
+## Data Model
+The solution uses a star schema with a central shipment fact table and supporting dimension tables for carriers and warehouses.
+This structure ensures scalable KPI calculation and optimal Power BI performance.
+
+## SQL Logic
+SQL queries are used to calculate:
+- Shipment volume trends
+- Processing efficiency
+- SLA compliance by carrier
+- Cost per shipment
